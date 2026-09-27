@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/backend/">
+    <Project Path="backend/Game3d.Api/Game3d.Api.csproj" />
+    <Project Path="backend/Game3d.Application/Game3d.Application.csproj" />
+    <Project Path="backend/Game3d.Domain/Game3d.Domain.csproj" />
+    <Project Path="backend/Game3d.Infrastructure/Game3d.Infrastructure.csproj" />
+  </Folder>
+</Solution>

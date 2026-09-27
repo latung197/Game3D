@@ -1,0 +1,23 @@
+{
+  "name": "truc-lam-bi-canh",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "smoke:realtime": "node scripts/smoke-realtime.mjs",
+    "smoke:chat": "node scripts/smoke-chat-channels.mjs",
+    "smoke:relations": "node scripts/smoke-relations.mjs"
+  },
+  "dependencies": {
+    "@microsoft/signalr": "^10.0.11",
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.180.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.0"
+  }
+}

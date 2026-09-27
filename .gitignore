@@ -1,0 +1,8 @@
+**/bin/
+**/obj/
+**/node_modules/
+frontend/dist/
+backend/Game3d.Api/App_Data/
+.env
+.DS_Store
+.runtime-test/

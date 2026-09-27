@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Game3d.Application\Game3d.Application.csproj" />
+    <ProjectReference Include="..\Game3d.Infrastructure\Game3d.Infrastructure.csproj" />
+    <ProjectReference Include="..\Game3d.Domain\Game3d.Domain.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>
